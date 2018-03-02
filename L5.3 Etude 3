@@ -1,0 +1,33 @@
+<head>
+   <title>Print Tickets for Show</title>
+     <style type = "text">
+              div { height: 3px;        
+                    border: 3px;
+                    width: 3px;
+                    padding: 3px}
+       </style>
+           <script type = "text">
+              <!--
+              function handleEvent()
+              {
+                 alert( "Your tickets have finished printing." );
+              } 
+              end function handleEvent
+              function registerHandler()
+              {
+                 var tickets = document.getElementById( "tickets" );
+                 tickets.onclick = handleEvent;
+              } 
+              end function registerHandler
+         
+     </script>
+   </head>
+     <body onload = "registerHandler()">
+           <!-- The event handler is registered inline -->
+           <div id = "inline" onclick = "handleEvent()">
+              Inline registration model</div>
+  
+           <!-- The event handler is registered by function registerHandler -->
+           <div id = "tickets">Ticket registration model</div>
+   </body>
+ </html>
