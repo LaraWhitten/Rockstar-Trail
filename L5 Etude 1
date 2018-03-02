@@ -1,0 +1,9 @@
+<form>
+  <INPUT TYPE= "text" name="name" required>
+  <input type="date" name="birthday" required placeholder="Enter your birthday">
+  <div>
+    <label for="bday">Enter your birthday:</label>
+    <input type="bday" id="date" name="name">
+    <input type="submit" name="submit" id="submit" onClick="_setAge();" />
+  </div>
+</form>
