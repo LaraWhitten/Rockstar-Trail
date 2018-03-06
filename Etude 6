@@ -1,0 +1,43 @@
+//number 1
+
+var MyTime= new Time()
+var MyHours=MyTime.getHours()
+var MyMinutes=MyTime.getMinutes()+1
+var MySeconds=MyTime.getSeconds()
+ 
+document.write("The time is now: ")
+document.write(MyHours+"/"+MyMinutes+"/"+MySeconds)
+
+//number 2
+
+toString(){
+
+    time.toString = getTime();
+    String str = "";
+    str += f.format(time.tostring); 
+    return str;
+}
+
+//number 3
+
+var MyTime= new Time()
+'-1'.compareTo('0');
+'1'.compareTo('0'); 
+'0'.compareTo('0');
+
+//number 4
+
+var options = { hour: '2-digit', minute: '2-digit', second: '2-digit'};
+var today  = new Time();
+console.log(locale.toSort("en-US"));
+console.log(locale.toSort("ja-JP",options));
+
+//number 5
+var a = ([10pm]);
+var b = ([2am]);
+var options = { hour: '2-digit', minute: '2-digit', second: '2-digit'};
+myTime.isBetween(a, b, "+"); 
+myTime.isBetween(a, b, "+-");
+
+
+
