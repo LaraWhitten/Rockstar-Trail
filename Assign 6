@@ -1,0 +1,58 @@
+var playlist = [
+  {
+    name: "Song of Choice",
+    file_name: "Song_of_Choice.mp3"
+  },
+  {
+    name: "Another Song",
+    file_name: "Another_Song.mp3"
+  },
+  {
+    name: "1 Movie",
+    file_name: "1_Movie.mov"
+  },
+  {
+    name: "2 Movie",
+    file_name: "2_Movie.mov"
+  },
+  {
+    name: "Talk Radio"
+    file_name: "1_Talk_Radio.podcast"
+   },
+   {
+    name: "Talk All Day"
+    file_name: "Talk_All_Day.podcast"
+]
+
+for (var i=0; i<playlist.length; i++) {
+
+  for (var k in playlist[i]) {
+  
+    console.log(k+': '+playlist[i][k]);
+  }
+}
+
+function playNext() {
+
+    var selected = _playlist.querySelector("li.selected");
+    
+    if (selected && selected.nextSibling) {
+    
+        playlistItemClick(selected.nextSibling);
+  }
+}
+ _stop.addEventListener("click", function () {
+
+    _player.pause();
+    
+});
+
+ _player.addEventListener("ended", playNext);
+
+_playlist.addEventListener("click", function (e) {
+
+    if (e.target && e.target.nodeName === "LI") {
+    
+        playlistItemClick(e.target);
+    }
+ }
