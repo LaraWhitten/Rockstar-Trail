@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML Table Header</title>
+   </head>
+	
+   <body>
+      <table border = "1">
+         <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Location</th>
+         </tr>
+         <tr>
+            <td>Lara</td>
+            <td>Whitten</td>
+            <td>Las Vegas</td>
+         </tr>
+         
+         <tr>
+            <td>Jason</td>
+            <td>Bench</td>
+            <td>Unknown</td>
+         </tr>
+          <tr>
+            <td>Joseph</td>
+            <td>Bess</td>
+            <td>Florida</td>
+         </tr>
+         
+         <tr>
+            <td>Jesse</td>
+            <td>Brown</td>
+            <td>Unknown</td>
+         </tr>
+          <tr>
+            <td>Joel</td>
+            <td>Chamberlain</td>
+            <td>Massachusetts</td>
+         </tr>
+         
+         <tr>
+            <td>Devon</td>
+            <td>Lojewski</td>
+            <td>Unknown</td>
+         </tr>
+          <tr>
+            <td>Tom</td>
+            <td>Lucero</td>
+            <td>Albuquerque</td>
+         </tr>
+         
+         <tr>
+            <td>Matthew</td>
+            <td>Lynch</td>
+            <td>Santa Barbara</td>
+         </tr>
+          <tr>
+            <td>Sophia</td>
+            <td>Pucket</td>
+            <td>Unknown</td>
+         </tr>
+         
+         <tr>
+            <td>Evan</td>
+            <td>Shuping</td>
+            <td>North Carolina</td>
+         </tr>
+          <tr>
+            <td>Hanani</td>
+            <td>Taylor</td>
+            <td>Los Angeles</td>
+         </tr>
+         
+         <tr>
+            <td>Sabbastian</td>
+            <td>Wilson-Webb</td>
+            <td>Minnesota</td>
+         </tr>
+      </table>
+   </body>
+   
+</html>
