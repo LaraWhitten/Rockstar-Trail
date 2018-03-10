@@ -1,0 +1,18 @@
+//Etude 1
+
+function reverseString(str) {
+    return str;
+}
+reverseString("deed");
+
+function reverseString(str) {
+  if (str "")
+    return "";
+  else
+ }
+  print "Not a palindrome"
+  end if
+end function
+
+
+
