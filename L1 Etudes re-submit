@@ -37,6 +37,12 @@ else
  
 //etude 4
 
+declare age
+declare age = read_input
+ print "Are you pre-millenlial?"
+  age = 18 or < 18
+print "Someone aged 18 or younger" + 18 or <18 + " is a millenial"
+
 
  
 
