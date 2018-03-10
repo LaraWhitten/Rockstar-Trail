@@ -1,0 +1,29 @@
+//problem 1
+
+declare= "Is it alive?" 
+ if number = 0 then
+   print "No!"
+    else
+ if number = >1 then
+   print "Yes!"
+declare= "Is it broccoli?"     
+ if number = >1
+   print "Yes!"
+    else
+     print "No!"
+declare= "Is it an animal?"
+ if number = >1
+   print "Yes!"
+   else
+    print "No!"
+ if read_input = "yes" then
+   print "Computer wins"
+ if read_input = "no" then
+   print "Computer loses"
+end if
+  end if
+  
+//problem 2
+
+  
+ 
