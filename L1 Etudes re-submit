@@ -1,0 +1,36 @@
+//etude 1
+
+
+
+//etude 2
+
+function myVal(val) {
+  if (val= a) { 
+    return "This is true";
+  }
+  
+  if (val= b) {  
+    return "This is false";
+  }
+
+  return "This is all false";
+ }
+
+
+//etude 3
+
+function myVal
+ if (val= x, val= y)
+    val z = x /y; 
+else
+ console.log(1/0)
+ 
+//etude 4
+
+
+ 
+
+
+
+
+
