@@ -25,5 +25,21 @@ end if
   
 //problem 2
 
+declare scale()
+myScale = ("C", "D", "E", "F", "G", "A", "B") 
+ if number = 0 then
+  print "C"
+   else
+declare note_letter=
+  print "This note is..."
+ note= read_input
+   return
+  note_letter = read_input
+   if note_number > 0 then
+   print "This note is..." + note_letter + "in the Key of C" (note_number + 0)
+   end if
+ end if
+ 
+ 
   
  
