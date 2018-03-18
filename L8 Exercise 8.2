@@ -1,0 +1,26 @@
+create table artists(
+id serial primary key,
+user_id integer not null references users(id),
+last name varcher (100) not null,
+first name varcher (100) not null,
+city of birth varcher (100) not null,
+birthday date varcher (100) not null,
+genre varcher (2000) not null,
+);
+
+create table album(
+id serial primary key,
+user_id integer not null references users(id),
+album title varcher(100) not null,
+release date varcher(100) not null,
+artist id varcher(20000) not null,
+);
+
+create table album tracks(
+id serial primary key,
+user_id integer not null references users(id)
+track title varcher(12) not null,
+track length varcher(500) not null,
+composer name varcher(100) not null,
+album id varcher(2000) not null,
+);
