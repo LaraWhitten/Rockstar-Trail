@@ -1,0 +1,54 @@
+//Etude 1 
+
+INSERT INTO artist(firstname, lastname, dob, place_of_birth, genre) VALUES('Sarah','Vaughn',to_date('1906-2-12','YYYY-MM-DD'),'country');
+INSERT INTO artist(firstname, lastname, dob, place_of_birth, genre) VALUES('Sarah','McClachlan',to_date('1976-2-12','YYYY-MM-DD'),'country');
+INSERT INTO artist(firstname, lastname, dob, place_of_birth, genre) VALUES('Sarah','Smith',to_date('1936-2-12','YYYY-MM-DD'),'country');
+
+//Etude 2
+SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Vaughn';
+INSERT INTO album([album1],[album2],[album3],[album4]) VALUES('Sarah's 1st Album','Vaughn2','Sarah Sings Country', 'The Blues');
+SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='McClachlan';
+INSERT INTO album([album1],[album2],[album3],[album4]) VALUES('Sarah1','McMlachlan2','Country is My Calling', '1More Sad Song');
+SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Smith';
+INSERT INTO album([album1],[album2],[album3],[album4]) VALUES('Sarah99andHolding','McMlachlanAin't','To Heck with Country', 'Vapor Red');
+
+//Etude 3
+
+SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Vaughn' AND a.album='Sarah's 1st Album';
+INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
+SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Vaughn' AND a.album='Vaughn2';
+INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
+SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Vaughn' AND a.album='Sarah Sings Country';
+INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
+SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Vaughn' AND a.album='The Blues';
+INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
+SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='McClachlan' AND a.album='Sarah1';
+INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
+SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='McClachlan' AND a.album='McLachlan2';
+INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
+SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='McClachlan' AND a.album='Country is My Calling';
+INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
+SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='McClachlan' AND a.album='1More Sad Song';
+INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
+SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Smith' AND a.album='Sarah99andHolding';
+INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
+SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Smith' AND a.album='McLachlanAin't';
+INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
+SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Smith' AND a.album='To Heck with Country';
+INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
+SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Smith' AND a.album='Vapor Red';
+INSERT INTO tracks([track1],[track2],[track3]) VALUES(['My Etude 5 Song!'],['2track'],['3track']);
+
+//Etude 4
+
+UPDATE [album] SET['The Blues']=['Greatist Hits'] WHERE a.lastname='Vaughn';
+
+//Etude 5
+
+DELETE FROM [tracks] WHERE ['My Etude 5 Song!']
+
+
+
+
+
+
