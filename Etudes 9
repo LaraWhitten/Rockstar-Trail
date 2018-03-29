@@ -9,4 +9,19 @@
    </body>
 </html>
 
+<script>
+ function flickrResults(json) {
+  var myDiv=document.getElementbyId("main");
+ myDiv.innerHTML="<"img src='" + json.items[0].media.m + " ' />";
+  console.log(json);}
+</script>
+<script
+src='http://api.flickr.com/services/feeds/photos_public.gne?
+jsoncallback=flickrResults&tags=monkey&format=json'>
+</script>
+
+
+
+
+
 
