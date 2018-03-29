@@ -1,23 +1,23 @@
 <html>
  <head>
-  <title>My API Practice</title>
+  <title>Musix Match Lyrics</title>
  </head>
  <body>
-    <div id="main">
-      Something will go here
+    <div id="Song Title for the Lyrics">
     </div>
    </body>
 </html>
 
 <script>
- function flickrResults(json) {
-  var myDiv=document.getElementbyId("main");
- myDiv.innerHTML="<"img src='" + json.items[0].media.m + " ' />";
+ function musixmatchResults(json) {
+  var myDiv=document.getElementbyId("Song Title for the Lyrics");
+ myDiv.innerHTML="<"img src='" + json.items[0].media.m + " ' />";<img src="http://tracking.musixmatch.com/t1.0/AMa6hJCIEzn1v8RuXW"> 
+ <script type="text/javascript" src="http://tracking.musixmatch.com/t1.0/AMa6hJCIEzn1v8RuOP">
   console.log(json);}
 </script>
 <script
-src='http://api.flickr.com/services/feeds/photos_public.gne?
-jsoncallback=flickrResults&tags=monkey&format=json'>
+<img src="http://tracking.musixmatch.com/t1.0/AMa6hJCIEzn1v8RuXW">
+jsoncallback=musixmatchResults&tags=format=json'>
 </script>
 
 
