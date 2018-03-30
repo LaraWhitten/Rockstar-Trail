@@ -9,16 +9,11 @@ console.log(calculateAvg(num));
 
 //Etude 4.2
 
-let arr = [red, white, black, blue];
+var array1 = ['red', 'white', 'blue'];
+var reversed = array1.reverse(); 
+console.log(array1);
+console.log(reversed);
 
-let sorted = arr.sort(function(a, b) {
-  if ( a < 0 ) a = red, white
-  if ( b < 0 ) b = black, blue
-  if ( a > b ) return red
-  return red, white, blue;
-});
-
-console.log(sorted);
 
 //Etude 4.3
 
