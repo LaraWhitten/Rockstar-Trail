@@ -1,0 +1,83 @@
+//Etude 4.1
+
+let num = [1, 2, 3, 4, 5, 6, 7, ],
+    result;
+
+result = num.reduce((average, one_number) => average + one_number, 0);
+
+console.log(result);
+
+//Etude 4.2
+
+let arr = [red, white, black, blue];
+
+let sorted = arr.sort(function(a, b) {
+  if ( a < 0 ) a = red, white
+  if ( b < 0 ) b = black, blue
+  if ( a > b ) return red
+  return red, white, blue;
+});
+
+console.log(sorted);
+
+//Etude 4.3
+
+function length(str) {
+  return str.length;
+}
+
+function max("first_name", "last_name") {
+  if ( a > b ) {
+    return a;
+  } else {
+    return b;
+  }
+}
+let arr = [1, 2, 3];
+
+console.log("In alphabetical order  " + arr.indexOf(a));
+
+if ( arr.indexOf(b) >= 0 ) console.log("and continuing by first name");
+
+let words = ["Smith, Jane", "Smith, John", "Jones, Ann", "Jones, Art", "Flores, Juan "Flores, Juana", "Brown, Clarise"];  
+
+let mystery = names.map(length).reduce(max, 0);
+
+//Etude 4.4
+
+let arr_1 = [1, 2],
+    arr_2 = [3, 4];
+"Array.isArray: flatten([[1,2],[3,4]])"
+console.log(arr_1.concat(arr_2));
+console.log(arr_1.concat(arr_2, [3,4]));
+let num = [1, 2, 3, 4],
+    result;
+
+result = num.reduce((arr_1, _number) => arr_ + one_number, 0);
+
+console.log(result);
+
+//Etude 4.5
+
+Write a function that takes an object parameter and prints out the content of the object nicely.
+Each line of output, from console.log, should show each key and its associated value.
+
+let menu_obj = {
+  soup: "Soup du Jour",
+  coffe: "Cuban"
+};
+
+menu_obj = 'Today's Specials';
+menu["planet of origin"] = "are made today";
+menu = "numbers are fine to use as keys as well!";
+
+console.log(
+  menu.soup + ", the " + "soup du jour" +
+  " and " + menu.coffee["Columbian"] + ", are " + menu.specials
+);
+
+let my_obj = { name: "Patrick", location: "Virginia" };
+
+pretty_print(my_obj);
+
+Alice, the human from Earth, is 25
