@@ -17,7 +17,7 @@ console.log(reversed);
 
 //Etude 4.3
 
-var fruits = ["Smith", "Stevens", "Steiffel", "Santiago"];
+var phonebook = ["Smith", "Stevens", "Steiffel", "Santiago"];
 document.getElementById("Names").innerHTML = phonebook;
 
 function myFunction() {
@@ -27,13 +27,11 @@ function myFunction() {
 
 //Etude 4.4
 
-let arr_1 = [1, 2],
-    arr_2 = [3, 4];
-"Array.isArray: flatten([[1,2],[3,4]])"
-console.log(arr_1.concat(arr_2));
-console.log(arr_1.concat(arr_2, [3,4]));
-let num = [1, 2, 3, 4],
-    result;
+var flat = (r, a) => Array.isArray(a) ? a.reduce(flat, r) : r.concat(a),
+    inputArray = array = [[['a', 'b', 'c'], [1, 2, 3]], [], [['d', 'e', 'f', 'g', 'h'], [4, 5, 6, 7]]],
+    outputArray = inputArray.reduce(flat, []);
+
+console.log(outputArray);
 
 result = num.reduce((arr_1, _number) => arr_ + one_number, 0);
 
@@ -41,25 +39,7 @@ console.log(result);
 
 //Etude 4.5
 
-Write a function that takes an object parameter and prints out the content of the object nicely.
-Each line of output, from console.log, should show each key and its associated value.
+var person = {firstName:"Shane", lastName:"Smith", age:"38", eyeColor:"blue"};
 
-let menu_obj = {
-  soup: "Soup du Jour",
-  coffe: "Cuban"
-};
-
-menu_obj = 'Today's Specials';
-menu["planet of origin"] = "are made today";
-menu = "numbers are fine to use as keys as well!";
-
-console.log(
-  menu.soup + ", the " + "soup du jour" +
-  " and " + menu.coffee["Columbian"] + ", are " + menu.specials
-);
-
-let my_obj = { name: "Patrick", location: "Virginia" };
-
-pretty_print(my_obj);
-
-Alice, the human from Earth, is 25
+document.getElementById("demo")=
+person.firstName + person.lastName" is " + person.age + " years old.";
