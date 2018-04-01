@@ -1,0 +1,72 @@
+class Note
+{
+    SinOsc o => Envelope e => dac;
+    350::ms => dur tempo;
+    
+    fun void quarter(int m)
+    {
+        SinOsc lfo => blackhole;
+        8 => lfo.freq;
+        
+        Std.mtof(m) => o.freq;
+        e.keyOn();
+        tempo => now;
+        (lfo.last() * 8) + m => o.freq;        
+        e.keyOff();
+    }
+}
+
+fun int factorial ( int arg )
+{ 
+    1 => int r;
+    arg => int b;
+    for ( b ; b > 1 ; 1 -=> b )
+    { 
+        b *=> r;
+    }
+    return r;
+}
+factorial ( 10 ) => int x;
+
+adc => Gain g => dac;
+g => Gain feedback => DelayL delay => g;
+
+.10::second => delay.max => delay.delay;
+.1 => feedback.gain;
+.20 => delay.gain;
+while( true ) 1::second => now;
+
+Note n;
+n.quarter(60);
+n.quarter(63);
+n.quarter(65);
+n.quarter(60);
+n.quarter(63);
+n.quarter(65);
+n.quarter(65);
+n.quarter(67);
+n.quarter(68);
+n.quarter(65);
+n.quarter(67);
+n.quarter(68);
+n.quarter(70);
+n.quarter(69);
+n.quarter(68); 
+n.quarter(67);
+n.quarter(68);
+n.quarter(67);
+n.quarter(66);
+n.quarter(66);
+n.quarter(60);
+n.quarter(60);
+n.quarter(59);
+n.quarter(66);
+n.quarter(67);
+n.quarter(66);
+n.quarter(65)
+n.quarter(65);
+n.quarter(66);
+n.quarter(59);
+n.quarter(66);
+n.quarter(67);
+n.quarter(68);
