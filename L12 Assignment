@@ -27,6 +27,12 @@
         <button class= "btn btn-primary btn-lg morequotes" id="button">Get Another Quote</button>
 
           <a id = "tweet_btn" target = "_blank" class="btn btn-primary btn-lg" ><i class="fa fa-twitter"></i> Tweet</a>
+          //if Chuck likes your joke
+          <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+          <i class="<i class="em em-martial_arts_uniform"></i>
+          //if Chuck doesn't like your joke
+          <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+          <i class="em em-facepunch"></i>
 
         </div>
 
