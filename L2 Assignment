@@ -1,3 +1,44 @@
+//re-submit Problem 1
+var scale = require('music-scale') 
+scale.get('A major') // => ['A', 'B', 'C#', 'D', 'E', 'F#', 'G#']  
+scale('major', 'A4') // => ['A4', 'B4', 'C#4', 'D4', 'E4', 'F#4', 'G#4'] 
+scale('1 2 3 4 5 6 7', 'A') // => ['A', 'B', 'C#', 'D', 'E', 'F#', 'G#'] 
+var major = scale('major')
+major('A') // => ['A', 'B', 'C#', 'D', 'E', 'F#', 'G#'] 
+major('A4') // => ['A4', 'B4', 'C#4', 'D4', 'E4', 'F#4', 'G#4'] 
+
+C + 2 = D
+D + 2 = E
+E + 1 = F
+F + 2 = G
+G + 2 = A
+A + 2 = B
+B + 1 = C
+Array.from({length: 88}, (x,i) => i);
+_.range(9);
+=> [0, 1, 2, 3, 4, 5, 6, 7, 8]
+_.range(8);
+=> [1, 2, 3, 4, 5, 6, 7, 8]
+_.range(-8);
+=> [-1, -2, -3, -4, -5, -6, -7, -8]
+_.range("A, B, C, D, E, F, G");
+=> [A, B, C, D, E, F, G]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Problem 1
 
 Array.from({length: 88}, (x,i) => i);
