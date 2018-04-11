@@ -15,26 +15,21 @@ Set.forEach(function(item, sameItem, s) {
 
 //Part 2
 
-let arr_1 = [A, B, C, D, E, F, G];
-    arr_2 = [A#, Ab, B#, Bb, C#, D#, Db, E#, Eb, F#, G#, Gb];
 play_piano(my_song);
   play: function() {
 }
-  var play_piano= today_date.getTime()
-  arr_1 play:= today_date.getSeconds()+1
-  arr_2 play:= today_date.getSeconds()+1{
+forEach (i=0; i < note.toString(); + "") {
+  play_piano();
 }
-for (let key in play_piano){
-  console.log(arr_1.concat(arr_2));
-  console.log(arr_1.concat(arr_2));
+Set = require(){
+  note.degrees() =>('',i++) => ['C', 'G']
+  note.degrees =>('',i+) => ['E']
+}
+{Array.from({length: }, (x,i) => i);
 
+  _.range(3); =>[0,1,2,1,0,0]
+}
+Set (i=0; i < note.toString(); + ""){
+  playPause();
+}
 
-Outputs:
-Play A
-Play B
-Wait 1.5 seconds
-Play C
-Wait 1.5 seconds
-Release A
-Release B
-Release C
