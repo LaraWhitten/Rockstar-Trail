@@ -1,0 +1,94 @@
+live_loop :kik do
+  sample :ambi_haunted_hum
+  play 72
+  sleep 0.5
+end
+
+live_loop :snare do
+  sync :kik
+  sample :ambi_piano
+  play 75
+  sleep 0.5
+end
+
+live_loop :hihat do
+  sync :kik
+  sample :ambi_swoosh
+  play 79
+  sleep 0.5
+end
+
+live_loop :keys do
+  sync :kik
+  sample :bass_thick_c
+  play 75
+  sleep 0.5
+end
+
+
+live_loop :keys do
+  sync :kik
+  sample :drum_tom_hi_soft
+  play 72
+  sleep 0.5
+end
+
+live_loop :keys do
+  sync :kik
+  sample :bd_808
+  play 72
+  sleep 0.5
+end
+
+live_loop :keys do
+  sync :kik
+  sample :drum_tom_lo_hard
+  play 72
+  sleep 0.5
+end
+live_loop :keys do
+  sync :kik
+  sample :drum_tom_mid_hard
+  play 75
+  sleep 0.5
+end
+live_loop :keys do
+  sync :kik
+  sample :vinyl_scratch
+  play 79
+  sleep 0.5
+end
+
+live_loop :tom do
+  sync :kik
+  sample :drum_cowbell
+  play 79
+  sleep 4
+end
+
+live_loop :keys do
+  sync :kik
+  sample :elec_triangle
+  play 75
+  sleep 1
+end
+
+live_loop :keys do
+  sync :kik
+  sample :ambi_lunar_land
+  play 75
+  sleep 0.5
+end
+
+live_loop :keys do
+  sync :kik
+  sample :ambi_choir
+  play 75
+  sleep 1
+end
+live_loop :keys do
+  sync :kik
+  sample :elec_bong
+  play 72
+  sleep 2
+end
