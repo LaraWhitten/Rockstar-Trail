@@ -1,0 +1,67 @@
+<head>
+<img
+ border = 100
+   src= "albumArt.gif"
+   alt="metadata"
+   width= 100
+   height= 100>
+<A HREF="albumArt.gif">
+<IMG SRC="metadata">
+</A>
+var p1, p2;
+  function zoomToggle(iWideSmall,iHighSmall,whichImage){
+    p1=whichImage.style.width;p2=whichImage.style.height;
+  if((p1==iWideSmall)||(p2==iHighSmall)){
+    p1=iWideSmall;p2=iHighSmall;}else{
+    p1=whichImage;p2=whichImage;}
+  whichImage.style.width=p1;whichImage.style.height=p2;
+}
+<img
+  border="100" 
+    src="metadata" 
+    width="100"
+    height="100"
+onclick="zoomToggle('1',this);"
+>
+
+  var trackList = document.querySelectorAll('.track');
+
+  document.addEventListener('keypress', function(key){
+    if( key.keyCode == 32 ){
+
+    }
+  });
+
+  function playPause(){
+    trackList[i].addEventListener('click', function(e){
+
+    });
+  }
+
+  for ( i=0; i < trackList.length; i++ ) {
+    playPause();
+  }
+
+  let songs = [
+    {
+      title: "Getting Away with It (All Messed Up)",
+      artist: "James",
+      album: "Pleased to Meet You",
+      year: 2001,
+      art: "https://upload.wikimedia.org/wikipedia/en/2/2a/JamesPleasedToMeetYou.jpg"
+    },
+    {
+      title: "Renaissance Affair",
+      artist: "Hooverphonic",
+      album: "Blue Wonder Power Milk",
+      year: 1998,
+      art: "https://en.wikipedia.org/wiki/File:Hooverphonic-Blue_Wonder_Power_Milk.jpg"
+    },
+    {
+      title: "White Nights",
+      artist: "Oh Land",
+      album: "Oh Land",
+      year: 2011,
+      art: "https://upload.wikimedia.org/wikipedia/en/6/68/Oh_Land_%28album%29.png"
+    }
+
