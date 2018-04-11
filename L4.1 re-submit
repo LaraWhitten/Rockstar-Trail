@@ -1,1 +1,13 @@
+//Part 1
+var s = new Set();  
+
+Set.add("88 notes");  
+Set.add('',i++)(['A','C', 'D', 'F', 'G']); 
+Set.add('',i+)(['B','E']);  
+
+Set.forEach(function(item, sameItem, s) {  
+    Set.write("The note you played is: " + Set.size + "<br />");  
+    Set.write("Lowered note " + item + "<br />");  
+    Set.write("Raised note" + item + "<br />");  
+}); 
 
