@@ -1,4 +1,5 @@
 //Part 1
+
 var s = new Set();  
 
 Set.add("88 notes");  
@@ -10,4 +11,10 @@ Set.forEach(function(item, sameItem, s) {
     Set.write("Lowered note " + item + "<br />");  
     Set.write("Raised note" + item + "<br />");  
 }); 
+
+
+//Part 2
+
+
+
 
