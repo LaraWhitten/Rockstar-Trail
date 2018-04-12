@@ -1,0 +1,29 @@
+
+<html>
+ <head>
+  <title>fanart.tv</title>
+ </head>
+ <body>
+    <div id="Fan's Jim Morrison to Lara in Pencil with Mirrored Sunglasses Reflecting Lizards">
+    </div>
+   </body>
+</html>
+
+<script>
+<input type='text' id='link_id'>
+<input type='button' id='link' value='Search' onClick='javascript:goTo()'>
+function goTo()
+{
+    location.href = document.getElementById('link_id').value;
+}
+ function musixmatchResults(json) {
+  var myDiv=document.getElementbyId("Fan's Jim Morrison to Lara in Pencil with Mirrored Sunglasses Reflecting Lizards");
+ myDiv.innerHTML="<"img src='" + json.items[0].media.m + " ' />"
+ http://webservice.fanart.tv/v3/movies/17645?api_key=6fa22b0ef3b5f3bba6a7edaa76675ac2&client_key=52c813aa7b8c8b3bb87f4797532a2f8c
+ <img src="http://tracking.fanart.tv/t1.0/AMa6hJCIEzn1v8RuXW"> 
+ <script type="text/javascript" src="http://tracking.fanart.tv/t1.0/AMa6hJCIEzn1v8RuOP">
+  console.log(json);}
+</script>
+<script
+<img src="http://tracking.fanart.tv/t1.0/AMa6hJCIEzn1v8RuXW">
+jsoncallback=fanartResults&tags=format=json'
