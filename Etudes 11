@@ -28,13 +28,19 @@ fun int factorial ( int arg )
 }
 factorial ( 10 ) => int x;
 
+ SinOsc s => dac;
+      
+      while( true ) {
+          .10::second => now;
+      }
+
 adc => Gain g => dac;
 g => Gain feedback => DelayL delay => g;
 
 .10::second => delay.max => delay.delay;
 .1 => feedback.gain;
 .20 => delay.gain;
-while( true ) 1::second => now;
+while( true ) .10::second => now;
 
 Note n;
 n.quarter(60);
@@ -70,3 +76,5 @@ n.quarter(59);
 n.quarter(66);
 n.quarter(67);
 n.quarter(68);
+
+    
