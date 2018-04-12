@@ -1,8 +1,151 @@
+//Etude 10 re-submit
+
+<script>
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js>
+</script>
+<style>
+form,input,button { margin:48px; }
+</style>
+</head>
+
+<body>
+<div style="width:101px; margin:auto;">
+    <form action="" id="calculator">
+    	<input type="hidden" id="operation" value="">
+    	<input type="text" id="answer" value="" style="width:58px; height:18px;" disabled="disabled"/>
+     	<input type="button" value="+" id="plus" style="width:38px; height:38px; float:left;"/>
+        <input type="button" value="-" id="subtract" style="width:38px; height:38px; float:left;"/>
+        <input type="button" value="/" id="divide" style="width:38px; height:38px; float:left;"/>
+        <input type="button" value="*" id="product" style="width:38px; height:38px; float:left;"/>
+        <input type="button" value="1" id="1" style="width:38px; height:38px; float:left;"/>
+        <input type="button" value="2" id="2" style="width:38px; height:38px; float:left;"/>
+        <input type="button" value="3" id="3" style="width:38px; height:38px; float:left;"/>
+        <input type="button" value="4" id="4" style="width:38px; height:38px; float:left;"/>
+        <input type="button" value="5" id="5" style="width:38px; height:38px; float:left;"/>
+        <input type="button" value="6" id="6" style="width:38px; height:38px; float:left;"/>
+        <input type="button" value="7" id="7" style="width:38px; height:38px; float:left;"/>
+        <input type="button" value="8" id="8" style="width:38px; height:38px; float:left;"/>
+        <input type="button" value="9" id="9" style="width:38px; height:38px; float:left;"/>
+        <input type="button" value="0" id="0" style="width:38px; height:38px; float:left;"/>
+        <input type="button" value="C" id="C" style="width:38px; height:38px; float:left; color:grey;"/>
+        <input type="button" value="=" id="equals" style="width:38px; height:38px; float:left;"/>
+    </form>
+    <div style="clear:both;"></div>
+</div>
+</body>
+</html>
+function applyEvent(value1, value2, operator) {
+        var res;
+        switch (operator) {
+            case "+":
+                res = addition(value1, value2);
+                break;
+            case "-":
+                res = subtraction(value1, value2);
+                break;
+            case "*":
+                res = multiplication(value1, value2);
+                break;
+            case "/":
+                res = division(value1, value2);
+                break;
+        }
+        return res;
+    }
+
+    function addition(first, second) {
+        var a = parseFloat(first);
+        var b = parseFloat(second);
+        var total = a + b;
+        return total;
+    }
+
+    function subtraction(first, second) {
+        var a = parseFloat(first);
+        var b = parseFloat(second);
+        var sub = a - b;
+        return sub;
+    }
+
+    function multiplication(first, second) {
+        var a = parseFloat(first);
+        var b = parseFloat(second);
+        var product = a * b;
+        return product;
+    }
+
+    function division(first, second) {
+        var a = parseFloat(first);
+        var b = parseFloat(second);
+        var divi = a / b;
+    } 
+  
+  $(".clear-button").click(function(){ 
+    resetCalculator("0"); 
+  $(function(){ 
+          
+    $(".num-button").click(function(){ 
+        
+    }); 
+      
+    $(".clear-button").click(function(){ 
+        
+    }); 
+      
+    $(".function-button").click(function(){ 
+        
+    }); 
+      
+    $(".equals-button").click(function(){ 
+          
+    }); 
+      
+    $("#calculator").draggable(); 
+      
+    $("#opener, #closer").click(function(){ 
+        $("#opener").toggle(); 
+        $("#calculator").toggle();
+    }); 
+      $(".clear-button").click(function(){ 
+    resetCalculator("0"); 
+  $(function(){ 
+});
+<select id="yourid">
+<option value="Value 1">+</option>
+<option value="Value 2">-</option>
+</select>
+
+<script src="jquery.js"></script>
+<script>
+$('#yourid').change(function() {
+  $.ajax({url: "calculate?text1="val1"&text1="val2"&op="+";
+
+                        error: function() {
+                            alert("Some Error is there..");
+                        },
+                        success: function(result) {
+
+                            alert(result);
+                            //$("#div1").html(result);
+                        }});
+
+});
+</script>
+
+
+
+
+
+
+
+
+
+//Etude 10
 <script
 src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js>
 </script>
 <style>
-form,input,button { margin:0px; }
+form,input,button { margin:30px; }
 </style>
 </head>
 
