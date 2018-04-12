@@ -1,0 +1,31 @@
+
+
+create table artists(
+  SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Vaughn'
+   AND a.venue='';
+   INSERT INTO date ([]) 
+   VALUES(['Date of the Show');
+   INSERT INTO a.venue(name, artist_id) select '', a.id from artists a 
+   where a.Date = (['']);
+   INSERT INTO a.venue(name, artist_id) select '', a.id from artists a 
+   where a.city = (['']);
+
+create table artists(
+   SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='McClachlan'
+      AND a.venue='';
+      INSERT INTO date ([]) 
+      VALUES(['Date of the Show');
+      INSERT INTO a.venue(name, artist_id) select '', a.id from artists a 
+      where a.Date = (['']);
+      INSERT INTO a.venue(name, artist_id) select '', a.id from artists a 
+      where a.city = (['']);
+
+create table artists(
+    SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Smith'
+         AND a.venue='';
+         INSERT INTO date ([]) 
+         VALUES(['Date of the Show');
+         INSERT INTO a.venue(name, artist_id) select '', a.id from artists a 
+         where a.Date = (['']);
+         INSERT INTO a.venue(name, artist_id) select '', a.id from artists a 
+         where a.city = (['']);
