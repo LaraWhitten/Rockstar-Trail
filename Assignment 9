@@ -9,7 +9,7 @@
 </html>
 
 <script>
- function musixmatchResults(json) {
+ function fanartResults(json) {
   var myDiv=document.getElementbyId("Fan's Jim Morrison to Lara in Pencil with Mirrored Sunglasses Reflecting Lizards");
  myDiv.innerHTML="<"img src='" + json.items[0].media.m + " ' />";
  http://webservice.fanart.tv/v3/movies/17645?api_key=6fa22b0ef3b5f3bba6a7edaa76675ac2&client_key=52c813aa7b8c8b3bb87f4797532a2f8c
