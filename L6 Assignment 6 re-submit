@@ -1,0 +1,72 @@
+
+  var trackList = document.querySelectorAll('.track');
+
+  document.addEventListener('keypress', function(key){
+    if( key.keyCode == 32 ){
+
+    }
+  }
+
+  function playPause(){
+    trackList[i].addEventListener('click', function(e){
+
+    }
+
+  for ( i=0; i < trackList.length; i++ ) {
+    playPause();
+  } 
+
+  function playPause(){
+    trackList[i].addEventListener('click', function(e){
+
+      var selected = this.parentNode;
+      index = findIndex(selected);
+
+      var trackList = document.querySelectorAll('.track');
+     
+       document.addEventListener('keypress', function(key){
+         if( key.keyCode == 32 ){
+     
+         }
+       });
+     
+       function playPause(){
+         trackList[i].addEventListener('click', function(e){
+     
+         });
+       }
+     
+       for ( i=0; i < trackList.length; i++ ) {
+         playPause();
+       }
+     
+       let songs = [
+         {
+           title: "Getting Away with It (All Messed Up)",
+           artist: "James",
+           album: "Pleased to Meet You",
+           year: 2001,
+           art: "https://upload.wikimedia.org/wikipedia/en/2/2a/JamesPleasedToMeetYou.jpg"
+         },
+         {
+           title: "Renaissance Affair",
+           artist: "Hooverphonic",
+           album: "Blue Wonder Power Milk",
+           year: 1998,
+           art: "https://en.wikipedia.org/wiki/File:Hooverphonic-Blue_Wonder_Power_Milk.jpg"
+         },
+         {
+           title: "White Nights",
+           artist: "Oh Land",
+           album: "Oh Land",
+           year: 2011,
+           art: "https://upload.wikimedia.org/wikipedia/en/6/68/Oh_Land_%28album%29.png"
+         }
+
+
+  return song.play(),
+  selected.classList.add('playing');
+  if (!hasClass(selected, 'paused') && song.currentTime > 0) {
+    song.pause(),
+    selected.classList.add('paused');
+  } else 
