@@ -15,13 +15,18 @@ INSERT INTO album([album1],[album2],[album3],[album4]) VALUES('Sarah99andHolding
 //Etude 3
 
 SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Vaughn' AND a.album='Sarah's 1st Album';
+INSERT INTO albums (name, artist_id) select '', a.id from artists a where a.name = 'Vaughn'; 
+
 INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
-SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Vaughn' AND a.album='Vaughn2';
+SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Vaughn' AND a.album='Vaughn2'; 
+
 INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
 SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Vaughn' AND a.album='Sarah Sings Country';
 INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
 SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Vaughn' AND a.album='The Blues';
 INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
+INSERT INTO albums (name, artist_id) select '', a.id from artists a where a.name = 'McClachlan'; 
+
 SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='McClachlan' AND a.album='Sarah1';
 INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
 SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='McClachlan' AND a.album='McLachlan2';
@@ -31,6 +36,8 @@ INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3t
 SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='McClachlan' AND a.album='1More Sad Song';
 INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
 SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Smith' AND a.album='Sarah99andHolding';
+INSERT INTO albums (name, artist_id) select '', a.id from artists a where a.name = 'Smith'; 
+
 INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
 SELECT*FROM artists a WHERE a.firstname='Sarah' AND a.lastname='Smith' AND a.album='McLachlanAin't';
 INSERT INTO tracks([track1],[track2],[track3]) VALUES(['1track'],['2track'],['3track']);
