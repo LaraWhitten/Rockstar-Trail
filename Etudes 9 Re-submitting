@@ -8,17 +8,13 @@
    </body>
 </html>
 
-<script>
  function musixmatchResults(json) {
   var myDiv=document.getElementbyId("Song Title for the Lyrics");
  myDiv.innerHTML="<"img src='" + json.items[0].media.m + " ' />";<img src="http://tracking.musixmatch.com/t1.0/AMa6hJCIEzn1v8RuXW"> 
  <script type="text/javascript" src="http://tracking.musixmatch.com/t1.0/AMa6hJCIEzn1v8RuOP">
-  console.log(json);}
-</script>
-<script
+  console.log(json);
 <img src="http://tracking.musixmatch.com/t1.0/AMa6hJCIEzn1v8RuXW">
-jsoncallback=musixmatchResults&tags=format=json'>
-</script>
+jsoncallback=musixmatchResults&tags=format=json'
 
 
 
