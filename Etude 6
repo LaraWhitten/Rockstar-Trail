@@ -1,3 +1,36 @@
+//Etudes 6 Re-submitting
+
+Date.prototype.today = function () { 
+    return ((this.getDate() < 10)?"0":"") + this.getDate() +"/"+(((this.getMonth()+1) < 10)?"0":"") + (this.getMonth()+1) +"/"+ this.getFullYear();
+}
+
+Date.prototype.timeNow = function () {
+     return ((this.getHours() < 10)?"0":"") + this.getHours() +":"+ ((this.getMinutes() < 10)?"0":"") + this.getMinutes() +":"+ ((this.getSeconds() < 10)?"0":"") + this.getSeconds();
+}
+var datetime = "LastSync: " + new Date().today() + " @ " + new Date().timeNow();
+
+(x.compareTo(y)<-1 && y.compareTo(z)<-1) implies x.compareTo(z)<-1.
+
+arrayList.sort((o1, o2) -> o1.getStartDate().compareTo(o2.getStartDate()));
+
+function update() {
+  var tmz = $("#tmz").val();
+  var fmt = 'HH:mm:ss';
+
+  $(".time").text(time.format(fmt));
+  $("#zone").text(tmz);
+  if(time.isBetween(start, end)) {
+    console.log('yep');
+    $("#bool").text("IS");
+  } else {
+    $("#bool").text("IS NOT");
+  }
+}
+
+$("#tmz").on("change", update);
+update();
+
+
 //number 1
 
 var MyTime= new Time()
